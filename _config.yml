@@ -3,4 +3,4 @@ exclude: ['README.markdown']
 permalink: ':title'
 highlighter: rouge
 safe: false
-title: 'Carte'
+title: '롤 API'
