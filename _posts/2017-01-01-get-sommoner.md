@@ -6,13 +6,16 @@ type: 'GET'
 
 layout: nil
 ---
-```/lol/summoner/v3/summoners/by-name/{소환사명}```
+```
+/lol/summoner/v3/summoners/by-name/{소환사명}
+```
 소환사명으로 유저 정보를 조회합니다.
 
 ### 요청
 
 
-* 발급받은 api_key를 URL파라미터에 포함해야 합니다.(시작하기) 참고
+* 발급받은 api_key를 URL파라미터에 포함해야 합니다.
+[시작하기](#/getting-started) 참고
 
 ### 응답
 
