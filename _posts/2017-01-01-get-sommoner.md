@@ -1,10 +1,10 @@
 ---
-category: Sommoner
-path: 'sommoners/by-name'
+category: Sommoners
+uri: '/sommoners/by-name'
 title: '소환사 조회'
 type: 'GET'
 
-layout: nil
+layout: null
 ---
 ```
 /lol/summoner/v3/summoners/by-name/{소환사명}

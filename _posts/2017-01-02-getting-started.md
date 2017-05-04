@@ -1,6 +1,6 @@
 ---
 title: '시작하기'
-layout: nil
+layout: null
 ---
 
 ### 시작하기

@@ -1,10 +1,10 @@
 ---
 category: Stuff
-path: '/stuff/:id'
+uri: '/stuff/:id'
 title: 'Update a thing'
 type: 'PUT'
 
-layout: nil
+layout: null
 ---
 
 This method allows the user to retrieve his stuff.

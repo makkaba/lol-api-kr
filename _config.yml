@@ -1,6 +1,6 @@
 ---
 exclude: ['README.markdown']
 permalink: ':title'
-highlighter: rouge
+highlighter: pygments
 safe: false
 title: '롤 API'
