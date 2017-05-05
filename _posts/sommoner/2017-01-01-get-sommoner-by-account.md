@@ -1,12 +1,13 @@
 ---
-category: Sommoners
-uri: '/lol/summoner/v3/summoners/by-name/{소환사명}'
-title: '소환사명으로 조회'
+category: Sommoner
+uri: '/lol/summoner/v3/summoners/by-account/{계정번호}'
+title: '계정으로 조회'
 type: 'GET'
 
 layout: null
 ---
-소환사명으로 유저 정보를 조회합니다.
+
+계정고유번호로 유저 정보를 조회합니다.
 
 ### 요청
 
