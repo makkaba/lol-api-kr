@@ -1,6 +1,7 @@
 ---
-uri: '/login'
-title: 'Authenticate'
+uri: '?api_key={Your Key}'
+type: 'GET'
+title: '인증'
 
 layout: null
 ---
