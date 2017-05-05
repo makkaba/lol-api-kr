@@ -1,12 +1,12 @@
 ---
 category: Match
-uri: '/lol/match/v3/matchlists/by-account/{accountId}'
-title: '경기 상세 조회'
+uri: '/lol/match/v3/matchlists/by-account/{accountId}/recent'
+title: '최근 경기 조회'
 type: 'GET'
 
 layout: null
 ---
-경기 리스트를 상세 조회합니다.
+경기 리스트 20개를 조회합니다.
 
 ### 요청
 
@@ -25,4 +25,4 @@ beginTime, endIndex, season, champion, beginIndex, queue, endTime
   "startIndex": 0,
   "endIndex": 1662,
   "totalGames": 1662,
-}```
+}```  
