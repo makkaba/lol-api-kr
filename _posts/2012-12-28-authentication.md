@@ -6,16 +6,4 @@ title: '인증'
 layout: null
 ---
 
-This method allows users to retrieve stuff.
-
-### Response
-
-Sends back a collection of things.
-
-```Authentication: bearer TOKEN```
-```{
-    id: thing_2,
-    name: 'My second thing'
-}```
-
-For errors responses, see the [response status codes documentation](#response-status-codes).
+**모든 요청 끝에 URL파라미터로 api_key가 들어가야 합니다.**
