@@ -1,41 +1,21 @@
 ---
-title: 'Response status codes'
+title: '응답코드'
 
 layout: null
 ---
 
 ### Success
 
-Successes differ from errors in that their body may not be a simple response object with a code and a message. The headers however are consistent across all calls:
-
-* `GET`, `PUT`, `DELETE` returns `200 OK` on success,
-* `POST ` returns 201 on success,
-
-When [retrieving stuff](#get-stuff) for example:
-
-```Status: 200 OK```
-```{
-    {
-        id: thing_1,
-        name: 'My first thing'
-    },
-    {
-        id: thing_2,
-        name: 'My second thing'
-    }
-}```
+* 성공 시 `200 OK`를 돌려줍니다.
+* `GET` 메소드의 경우, 해당 모델의 DTO를 돌려주는 경우가 많습니다.
 
 ### Error
 
-Error responses are simply returning [standard HTTP error codes](http://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html) along with some additional information:
+* 에러 처리가 되어있는 경우, 메세지와 코드가 함께 전달됩니다.
 
-* The error code is sent back as a status header,
-* The body includes an object describing both the code and message (for debugging and/or display purposes),
-
-For a call with an invalid authentication token for example:
-
-```Status: 401 Access denied```
 ```{
-    code: 401,
-    message: 'Access denied: invalid authentication token.'
+  "status": {
+    "message": "Unauthorized",
+    "status_code": 401
+  }
 }```
