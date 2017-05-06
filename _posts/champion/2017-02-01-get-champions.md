@@ -1,7 +1,7 @@
 ---
 category: Champion
 uri: '/lol/platform/v3/champions'
-title: '챔피언 상태 조회'
+title: '모든 챔피언 상태 조회'
 type: 'GET'
 
 layout: null
