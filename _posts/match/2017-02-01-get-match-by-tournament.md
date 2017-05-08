@@ -6,6 +6,7 @@ type: 'GET'
 
 layout: null
 ---
+`/lol/match/v3/matches/by-tournament-code/{tournamentCode}/ids`
 토너먼트의 경기를 조회합니다.
 
 ### 요청

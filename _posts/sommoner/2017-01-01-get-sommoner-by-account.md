@@ -6,7 +6,7 @@ type: 'GET'
 
 layout: null
 ---
-
+`/lol/summoner/v3/summoners/by-account/{계정번호}`
 계정고유번호로 유저 정보를 조회합니다.
 
 ### 요청

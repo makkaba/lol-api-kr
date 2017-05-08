@@ -6,6 +6,7 @@ type: 'GET'
 
 layout: null
 ---
+`/lol/summoner/v3/summoners/by-name/{소환사명}`
 소환사명으로 유저 정보를 조회합니다.
 
 ### 요청

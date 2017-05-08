@@ -6,6 +6,7 @@ type: 'GET'
 
 layout: null
 ---
+`/lol/match/v3/matchlists/by-account/{accountId}/recent`
 경기 리스트 20개를 조회합니다.
 
 ### 요청

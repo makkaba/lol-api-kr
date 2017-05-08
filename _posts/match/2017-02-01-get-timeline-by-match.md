@@ -6,6 +6,7 @@ type: 'GET'
 
 layout: null
 ---
+`/lol/match/v3/timelines/by-match/{matchId}`
 해당 경기의 시간별 정보를 조회합니다.
 
 ### 요청

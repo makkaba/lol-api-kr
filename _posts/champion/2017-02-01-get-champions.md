@@ -6,6 +6,7 @@ type: 'GET'
 
 layout: null
 ---
+`/lol/platform/v3/champions`
 모든 챔피언의 상태를 조회합니다.
 
 ### 요청  

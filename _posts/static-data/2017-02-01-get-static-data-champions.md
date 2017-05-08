@@ -6,7 +6,8 @@ type: 'GET'
 
 layout: null
 ---
-챔피언의 리소스(정적 데이터)를 조회합니다.
+`/lol/static-data/v3/champions`
+챔피언의 리소스를 조회합니다.
 
 ### 요청
 

@@ -6,6 +6,7 @@ type: 'GET'
 
 layout: null
 ---
+`/lol/match/v3/matchlists/by-account/{accountId}`
 경기 리스트를 상세 조회합니다.
 
 ### 요청

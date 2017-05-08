@@ -6,6 +6,7 @@ type: 'GET'
 
 layout: null
 ---
+`/lol/match/v3/matches/{matchId}`
 경기ID로 경기 정보를 조회합니다.
 
 ### 요청
