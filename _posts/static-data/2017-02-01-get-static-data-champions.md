@@ -19,7 +19,7 @@ layout: null
 
 |KEY|VALUE|TYPE|etc|
 |---|---|---|---|
-|version|7.9.1, ...|string|data dragon버전입니다|
+|version|7.9.1, ...|string|data dragon버전|
 |champListData|all, allytips, altimages, blurb, enemytips, image, info, lore, partype, passive, recommended, skins, spells, stats, tags|string||
 |dataById|true/false|boolean||
 |locale|en_US, ...|string||
